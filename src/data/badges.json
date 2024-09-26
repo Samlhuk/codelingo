@@ -1,0 +1,68 @@
+{
+  "badges": [
+    {
+      "badgeId": "html",
+      "category": "HTML",
+      "level": "Entry",
+      "name": "HTML Entry Level",
+      "description": "Completed all Entry-level HTML quizzes."
+    },
+    {
+      "badgeId": "html-junior",
+      "category": "HTML",
+      "level": "Junior",
+      "name": "HTML Junior",
+      "description": "Completed all Junior-level HTML quizzes."
+    },
+    {
+      "badgeId": "html-mid",
+      "category": "HTML",
+      "level": "Mid-weight",
+      "name": "HTML Mid-weight",
+      "description": "Completed all Mid-weight HTML quizzes."
+    },
+
+    {
+      "badgeId": "css",
+      "category": "CSS",
+      "level": "Entry",
+      "name": "CSS Entry Level",
+      "description": "Completed all Entry-level CSS quizzes."
+    },
+    {
+      "badgeId": "css-junior",
+      "category": "CSS",
+      "level": "Junior",
+      "name": "CSS Junior",
+      "description": "Completed all Junior-level CSS quizzes."
+    },
+    {
+      "badgeId": "css-mid",
+      "category": "CSS",
+      "level": "Mid-weight",
+      "name": "CSS Mid-weight",
+      "description": "Completed all Mid-weight CSS quizzes."
+    },
+    {
+      "badgeId": "js",
+      "category": "JavaScript",
+      "level": "Entry",
+      "name": "JavaScript Entry Level",
+      "description": "Completed all Entry-level JavaScript quizzes."
+    },
+    {
+      "badgeId": "js-junior",
+      "category": "JavaScript",
+      "level": "Junior",
+      "name": "JavaScript Junior",
+      "description": "Completed all Junior-level JavaScript quizzes."
+    },
+    {
+      "badgeId": "js-mid",
+      "category": "JavaScript",
+      "level": "Mid-weight",
+      "name": "JavaScript Mid-weight",
+      "description": "Completed all Mid-weight JavaScript quizzes."
+    }
+  ]
+}

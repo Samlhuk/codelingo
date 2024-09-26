@@ -1,0 +1,303 @@
+{
+  "categories": [
+    {
+      "name": "HTML",
+      "levels": [
+        {
+          "level": "Entry",
+          "lessons": [
+            {
+              "lessonId": "html-entry-1",
+              "title": "Introduction to HTML",
+              "content": "Learn the basics of HTML and how to create a simple webpage.",
+              "codeExample": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First Page</title>\n</head>\n<body>\n  <h1>Hello, World!</h1>\n</body>\n</html>",
+              "quiz": {
+                "question": "What does HTML stand for?",
+                "options": [
+                  "Hyper Trainer Markup Language",
+                  "Hyper Text Markup Language",
+                  "Hyper Text Marketing Language",
+                  "Hyperlink and Text Markup Language"
+                ],
+                "answer": "Hyper Text Markup Language"
+              }
+            },
+            {
+              "lessonId": "html-entry-2",
+              "title": "HTML Elements",
+              "content": "Understanding various HTML elements and their usage.",
+              "codeExample": "<p>This is a paragraph.</p>",
+              "quiz": {
+                "question": "Which tag is used for a paragraph?",
+                "options": ["<div>", "<span>", "<p>", "<a>"],
+                "answer": "<p>"
+              }
+            },
+            {
+              "lessonId": "html-entry-3",
+              "title": "Adding Images",
+              "content": "Learn how to add images to your webpage using the <img> tag.",
+              "codeExample": "<img src='image.jpg' alt='An example image'>",
+              "quiz": {
+                "question": "Which attribute is required in the <img> tag?",
+                "options": ["alt", "title", "src", "href"],
+                "answer": "src"
+              }
+            }
+          ]
+        },
+        {
+          "level": "Junior",
+          "lessons": [
+            {
+              "lessonId": "html-junior-1",
+              "title": "HTML Forms",
+              "content": "Learn how to create a form with input elements, buttons, and labels.",
+              "codeExample": "<form>\n  <label for='name'>Name:</label>\n  <input type='text' id='name' name='name'>\n  <button type='submit'>Submit</button>\n</form>",
+              "quiz": {
+                "question": "Which tag is used to create a form?",
+                "options": ["<form>", "<input>", "<label>", "<button>"],
+                "answer": "<form>"
+              }
+            },
+            {
+              "lessonId": "html-junior-2",
+              "title": "Semantic HTML",
+              "content": "Introduction to semantic HTML elements like <header>, <footer>, and <article>.",
+              "codeExample": "<header>\n  <h1>Welcome to My Website</h1>\n</header>",
+              "quiz": {
+                "question": "Which tag is used for a main heading section?",
+                "options": ["<div>", "<header>", "<section>", "<main>"],
+                "answer": "<header>"
+              }
+            }
+          ]
+        },
+        {
+          "level": "Mid-level",
+          "lessons": [
+            {
+              "lessonId": "html-mid-1",
+              "title": "HTML Tables",
+              "content": "Learn how to create tables to display data.",
+              "codeExample": "<table>\n  <tr>\n    <th>Name</th>\n    <th>Age</th>\n  </tr>\n  <tr>\n    <td>John</td>\n    <td>30</td>\n  </tr>\n</table>",
+              "quiz": {
+                "question": "Which tag is used to define a table row?",
+                "options": ["<th>", "<tr>", "<td>", "<table>"],
+                "answer": "<tr>"
+              }
+            },
+            {
+              "lessonId": "html-mid-2",
+              "title": "HTML Forms - Advanced",
+              "content": "Advanced form elements like checkboxes, radio buttons, and file uploads.",
+              "codeExample": "<input type='checkbox' name='vehicle' value='Bike'> I have a bike<br>",
+              "quiz": {
+                "question": "Which attribute is used to define the value of a form input?",
+                "options": ["name", "type", "value", "placeholder"],
+                "answer": "value"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "levels": [
+        {
+          "level": "Entry",
+          "lessons": [
+            {
+              "lessonId": "css-entry-1",
+              "title": "Introduction to CSS",
+              "content": "Learn the basics of CSS and how to style your webpage.",
+              "codeExample": "body {\n  background-color: lightblue;\n}",
+              "quiz": {
+                "question": "Which property changes the background color?",
+                "options": [
+                  "color",
+                  "background-color",
+                  "font-color",
+                  "bgcolor"
+                ],
+                "answer": "background-color"
+              }
+            },
+            {
+              "lessonId": "css-entry-2",
+              "title": "Text Styling",
+              "content": "Learn how to style text using CSS.",
+              "codeExample": "p {\n  font-size: 16px;\n  color: red;\n}",
+              "quiz": {
+                "question": "Which property changes the font size?",
+                "options": ["font-size", "text-size", "size", "font"],
+                "answer": "font-size"
+              }
+            }
+          ]
+        },
+        {
+          "level": "Junior",
+          "lessons": [
+            {
+              "lessonId": "css-junior-1",
+              "title": "CSS Selectors",
+              "content": "Learn about different CSS selectors like class, ID, and attribute selectors.",
+              "codeExample": ".container {\n  padding: 20px;\n}",
+              "quiz": {
+                "question": "Which symbol is used for class selectors?",
+                "options": [".", "#", "*", "&"],
+                "answer": "."
+              }
+            },
+            {
+              "lessonId": "css-junior-2",
+              "title": "Positioning Elements",
+              "content": "Learn how to position elements using properties like 'absolute' and 'relative'.",
+              "codeExample": "div {\n  position: absolute;\n  top: 50px;\n  left: 100px;\n}",
+              "quiz": {
+                "question": "Which property positions an element absolutely?",
+                "options": ["display", "position", "float", "align"],
+                "answer": "position"
+              }
+            }
+          ]
+        },
+        {
+          "level": "Mid-level",
+          "lessons": [
+            {
+              "lessonId": "css-mid-1",
+              "title": "Flexbox Layout",
+              "content": "Learn how to create flexible layouts using CSS Flexbox.",
+              "codeExample": "display: flex;\njustify-content: center;\nalign-items: center;",
+              "quiz": {
+                "question": "Which property is used to align items along the main axis?",
+                "options": [
+                  "align-items",
+                  "justify-content",
+                  "flex-direction",
+                  "flex-wrap"
+                ],
+                "answer": "justify-content"
+              }
+            },
+            {
+              "lessonId": "css-mid-2",
+              "title": "CSS Grid",
+              "content": "Learn how to use CSS Grid to create complex layouts.",
+              "codeExample": "display: grid;\ngrid-template-columns: repeat(3, 1fr);",
+              "quiz": {
+                "question": "Which property defines the columns in a CSS Grid?",
+                "options": [
+                  "grid-template-rows",
+                  "grid-template-columns",
+                  "grid-gap",
+                  "grid-area"
+                ],
+                "answer": "grid-template-columns"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "levels": [
+        {
+          "level": "Entry",
+          "lessons": [
+            {
+              "lessonId": "js-entry-1",
+              "title": "Introduction to JavaScript",
+              "content": "Learn the basics of JavaScript and how to add interactivity to your webpage.",
+              "codeExample": "console.log('Hello, World!');",
+              "quiz": {
+                "question": "Which method displays data in the browser's console?",
+                "options": [
+                  "alert()",
+                  "console.log()",
+                  "prompt()",
+                  "document.write()"
+                ],
+                "answer": "console.log()"
+              }
+            },
+            {
+              "lessonId": "js-entry-2",
+              "title": "Variables and Data Types",
+              "content": "Learn how to declare variables and use different data types in JavaScript.",
+              "codeExample": "let name = 'John';\nlet age = 30;",
+              "quiz": {
+                "question": "Which keyword is used to declare a variable in JavaScript?",
+                "options": ["var", "let", "const", "All of the above"],
+                "answer": "All of the above"
+              }
+            }
+          ]
+        },
+        {
+          "level": "Junior",
+          "lessons": [
+            {
+              "lessonId": "js-junior-1",
+              "title": "Functions",
+              "content": "Learn how to define and call functions in JavaScript.",
+              "codeExample": "function greet(name) {\n  return 'Hello, ' + name;\n}",
+              "quiz": {
+                "question": "Which keyword is used to define a function in JavaScript?",
+                "options": ["function", "def", "fun", "define"],
+                "answer": "function"
+              }
+            },
+            {
+              "lessonId": "js-junior-2",
+              "title": "Arrays",
+              "content": "Learn how to create and manipulate arrays in JavaScript.",
+              "codeExample": "let fruits = ['apple', 'banana', 'cherry'];",
+              "quiz": {
+                "question": "Which method adds a new element to the end of an array?",
+                "options": ["push()", "pop()", "shift()", "unshift()"],
+                "answer": "push()"
+              }
+            }
+          ]
+        },
+        {
+          "level": "Mid-level",
+          "lessons": [
+            {
+              "lessonId": "js-mid-1",
+              "title": "Asynchronous JavaScript",
+              "content": "Learn about async programming using promises and async/await.",
+              "codeExample": "async function fetchData() {\n  let response = await fetch('https://api.example.com/data');\n  let data = await response.json();\n  console.log(data);\n}",
+              "quiz": {
+                "question": "Which keyword is used to pause the execution of an async function?",
+                "options": ["await", "async", "pause", "stop"],
+                "answer": "await"
+              }
+            },
+            {
+              "lessonId": "js-mid-2",
+              "title": "DOM Manipulation",
+              "content": "Learn how to interact with the DOM using JavaScript.",
+              "codeExample": "document.getElementById('myElement').textContent = 'Hello, World!';",
+              "quiz": {
+                "question": "Which method is used to select an element by its ID?",
+                "options": [
+                  "getElementById()",
+                  "querySelector()",
+                  "getElementsByClassName()",
+                  "getElementByName()"
+                ],
+                "answer": "getElementById()"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
